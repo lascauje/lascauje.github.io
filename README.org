@@ -1,0 +1,12 @@
+* Hello, Web
+Reproducible environment
+#+BEGIN_SRC bash :results silent
+guix time-machine --commit=74a83afdf5d518b812d939c394eb259c0fa5aa88 \
+  -- environment --container --ad-hoc emacs \
+  -- emacs web.org --batch --eval \
+  "(progn (require 'org)
+          (setq org-html-postamble \"Made with &#x1F90E; by %a and powered by %c.\")
+          (org-html-export-to-html))"
+#+END_SRC
+
+Many thanks to [[https://orgmode.org/worg/][the Org-Mode Community]] for the style sheets!

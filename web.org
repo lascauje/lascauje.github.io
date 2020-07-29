@@ -1,0 +1,53 @@
+#+TITLE: Lascauje's Personal Page
+#+AUTHOR: lascauje
+#+OPTIONS: H:3 num:nil toc:t \n:nil ::t |:t ^:t -:t f:t *:t tex:t d:(HIDE) tags:not-in-toc
+#+STARTUP: align fold nodlcheck hidestars oddeven lognotestate noinlineimages
+#+LANGUAGE: en
+#+PRIORITIES: A C B
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME: https://github.com/lascauje
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="./worg.css"/>
+
+# This file is released by its authors and contributors under the GNU
+# Free Documentation license v1.3 or later, code examples are released
+# under the GNU General Public License v3 or later.
+
+* About Me
+#+ATTR_HTML: :width 400
+[[./me.png]]
+- Computer Engineer
+- [[https://github.com/lascauje][Fork me on GitHub]]
+
+#+BEGIN_SRC
+Il est tout simple que j’incline au passé ;
+mais le passé est environné d’une vapeur à travers laquelle les objets prennent
+une teinte agréable et souvent trompeuse.
+
+--- Mémoires d’outre-tombe, Livre IX, François-René de Chateaubriand, 1848
+#+END_SRC
+
+#+BEGIN_QUOTE
+We also strongly agree with Alan Perlis that programming is lots of fun
+and we had better be careful to support the joy of programming.
+Part of this joy derives from observing great masters at work.
+
+--- Structure and Interpretation of Computer Programs,
+Harold Abelson and Gerald Jay Sussman with Julie Sussman,
+1996
+#+END_QUOTE
+
+#+CAPTION: French Alps
+#+ATTR_HTML: :width 400
+[[./french_alps.jpg]]
+* Projects
+** [[https://github.com/lascauje/byol/blob/master/README.org][Make a Lisp!]]
+   '(:ada :docker :interpreter)
+** [[https://lascauje.github.io/byodl/doc/dl.html][An Introduction to Deep Learning]]
+   '(:python :tensorflow :literate-programming :reproducible-computation)
+** [[https://lascauje.github.io/byosp/bin/doc/index.html][Gradient Algorithms in Non-Convex Optimization]]
+   '(:clojure :python :benchmark :scientific-paper)
+** Minor Open Source Contributions
+- [[https://guix.gnu.org/][GNU/Guix]]
+- [[https://paperswithcode.com/][Papers With Code]]
+* Potpourri
+- Ugh this web page is ugly! [[./old.png][Is it better?]]
